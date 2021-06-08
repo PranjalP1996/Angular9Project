@@ -1,5 +1,8 @@
 [
-  {"Id":1,"Type":"House","Price":15000,"Name":"1BHK"},
-  {"Id":2,"Type":"House","Price":18000,"Name":"2BHK"},
-  {"Id":3,"Type":"House","Price":10000,"Name":"3BHK"}
+  {"Id":1,"Type":"House","Price":15000,"Name":"1BHK","SellRent":1,"img":"1BHK-1.jfif"},
+  {"Id":2,"Type":"House","Price":18000,"Name":"2BHK","SellRent":1,"img":"2BHK-1.jfif"},
+  {"Id":3,"Type":"House","Price":10000,"Name":"3BHK","SellRent":2,"img":"3BHK-1.jpg"},
+  {"Id":4,"Type":"House","Price":12000,"Name":"Banglow","SellRent":2,"img":"banglow-1.jpeg"},
+  {"Id":5,"Type":"House","Price":11000,"Name":"1BHK","SellRent":1,"img":"1BHK-1.jfif"},
+  {"Id":6,"Type":"House","Price":20000,"Name":"3BHK","SellRent":3}
 ]

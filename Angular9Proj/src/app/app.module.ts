@@ -14,8 +14,9 @@ import { PropertyDetailComponent } from './property/property-detail/property-det
 const appRoute: Routes=[
   {path:''  ,component: PropertyListComponent},
   {path:'add-property'  ,component: AddPropertyComponent},
-  {path:'rent-property'  ,component: AddPropertyComponent},
-  {path:'property-details/:Id'  ,component: PropertyDetailComponent}
+  {path:'rent-property'  ,component: PropertyListComponent},
+  {path:'property-details/:Id'  ,component: PropertyDetailComponent},
+  {path:'**'  ,component: PropertyListComponent}
 ]
 
 @NgModule({
